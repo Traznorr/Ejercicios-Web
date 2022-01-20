@@ -26,8 +26,15 @@
         h1{
             text-align: center;
             font-family: 'VT323', monospace;
-            color: azure;
             font-size: 30px;
+            background: -webkit-linear-gradient(#eee, #333);
+            background: #FF0000;
+            background: -webkit-linear-gradient(to right, #FF0000 0%, #FFFF00 25%, #05C1FF 50%, #FFFF00 75%, #FF0000 100%);
+            background: -moz-linear-gradient(to right, #FF0000 0%, #FFFF00 25%, #05C1FF 50%, #FFFF00 75%, #FF0000 100%);
+            background: linear-gradient(to right, #FF0000 0%, #FFFF00 25%, #05C1FF 50%, #FFFF00 75%, #FF0000 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
         }
 
         ul{
@@ -38,6 +45,10 @@
             color: bisque;
             font-family: 'VT323', monospace;
             font-size: 20px;
+        }
+
+        a:hover{
+            color: chartreuse;
         }
 
     </style>
